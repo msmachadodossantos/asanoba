@@ -1,4 +1,4 @@
-![Logo](assets/logos/logo-main-fullcolor-500w.png)
+![Logo](assets/logos/logo-primary-fullcolor-500w.png)
 
 **ASANOBA** (朝の場), meaning *“morning place”* in Japanese, is a collaborative, open-source educational platform designed to support learners of all ages, from early childhood through higher education and lifelong learning. It is a space where curiosity is welcomed, growth is nurtured, and learning is understood as a shared, evolving journey.
 
