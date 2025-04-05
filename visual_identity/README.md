@@ -55,4 +55,4 @@ The design system is open, modular, and inclusive.
 
 ASANOBA is not defined by a logo alone, but by the **interplay of elements** that shape a coherent experience: vibrant color, basic forms, thoughtful typography, and metaphorical symbolism that mirrors the learning process.
 
-It’s a system built to adapt, evolve, and expand—just like the minds it serves.
+It’s a system built to adapt, evolve, and expand. Just like the minds it serves.
