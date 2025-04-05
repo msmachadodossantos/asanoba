@@ -1,7 +1,13 @@
+Claro! Abaixo está a versão **atualizada do `STRUCTURE.md`**, com **todas as seções de diretórios organizadas em ordem alfabética**. Isso facilita a leitura, a manutenção e o onboarding de novos membros da equipe.
+
+---
+
+# 📁 `STRUCTURE.md` — Project Folder Structure & Conventions
+
+Welcome to the **LMS (Learning Management System)** project!
+
 This document provides a **comprehensive explanation** of the folder and file structure adopted by this project.  
-
 It is intended to help **developers, designers, business analysts, stakeholders, and contributors** understand how the code and assets are organized, what each part is responsible for, and how to navigate and contribute efficiently.
-
 
 
 ## 🧭 Overview
@@ -14,20 +20,26 @@ This project is structured following the principles of:
 - ✅ **Open collaboration** — documentation and design assets are versioned alongside code for full team visibility.
 
 
-
 ## 📂 Root-Level Directories and Files
 
 | Name               | Description |
 |--------------------|-------------|
 | `.gitignore`        | Defines files/folders to exclude from version control (e.g., logs, temp files, `.env`). |
-| `composer.json`    | Defines the dependencies and configuration for a PHP project using Composer. |
+| `composer.json`     | Defines the dependencies and configuration for a PHP project using Composer. |
 | `CONTRIBUTING.md`   | Guidelines for how to contribute (code style, branches, PRs, etc.). |
 | `LICENSE`           | Legal terms for use and distribution (e.g., MIT License). |
 | `README.md`         | Project introduction, objectives, and quick start. |
 
 
+## 📂 `cli/`
 
-## ⚙️ `config/`
+Command-line utilities and custom tools to **automate repetitive tasks**.
+
+Example:
+- `make_module.php`: Generates a full module skeleton for a new bounded context following Clean Architecture.
+
+
+## 📂 `config/`
 
 This folder contains **application-wide configuration files** used during runtime or environment setup:
 
@@ -36,17 +48,7 @@ This folder contains **application-wide configuration files** used during runtim
 - `env_example`: A template file for setting up local environments via `.env`.
 
 
-
-## 🛠 `cli/`
-
-Command-line utilities and custom tools to **automate repetitive tasks**.
-
-Example:
-- `make_module.php`: Generates a full module skeleton for a new bounded context following Clean Architecture.
-
-
-
-## 📚 `docs/`
+## 📂 `docs/`
 
 Project documentation intended for both **technical and business stakeholders**:
 
@@ -57,8 +59,7 @@ Project documentation intended for both **technical and business stakeholders**:
 > Keeping docs in source control ensures versioned knowledge sharing.
 
 
-
-## 🧱 `modules/`
+## 📂 `modules/`
 
 This is the **core** of the application, where domain logic lives.  
 Each module (e.g., `User`, `Course`, `Enrollment`) is an **independent bounded context**, organized using Clean Architecture.
@@ -75,8 +76,7 @@ Each module (e.g., `User`, `Course`, `Enrollment`) is an **independent bounded c
 > New features should be developed within these modules to ensure proper separation and encapsulation.
 
 
-
-## 🌐 `public/`
+## 📂 `public/`
 
 The **public web root**, served by the web server (e.g., Apache, Nginx):
 
@@ -88,8 +88,7 @@ The **public web root**, served by the web server (e.g., Apache, Nginx):
 | `assets/images/`     | Static image assets. |
 
 
-
-## 📜 `scripts/`
+## 📂 `scripts/`
 
 Shell or batch scripts used to automate tasks during development or CI/CD.
 
@@ -97,8 +96,7 @@ Example:
 - `check_php_syntax.bat`: Recursively validates PHP syntax for all source files.
 
 
-
-## 🏗 `src/`
+## 📂 `src/`
 
 Contains **shared infrastructure or utility code** not tied to any specific business domain/module.
 
@@ -110,8 +108,7 @@ Contains **shared infrastructure or utility code** not tied to any specific busi
 > Business rules **should never** be placed here — use `modules/` instead.
 
 
-
-## 💾 `storage/`
+## 📂 `storage/`
 
 Used by the system to store runtime or temporary files:
 
@@ -120,8 +117,7 @@ Used by the system to store runtime or temporary files:
 | `logs/`         | Application logs for debugging and auditing. (Should be `.gitignore`d) |
 
 
-
-## ✅ `tests/`
+## 📂 `tests/`
 
 Organized to **mirror the structure of the `modules/` folder**, allowing tests to be logically grouped by domain and type:
 
@@ -132,8 +128,7 @@ Organized to **mirror the structure of the `modules/` folder**, allowing tests t
 | `E2E/`           | End-to-end or acceptance tests simulating user flows. |
 
 
-
-## 🔧 `tools/`
+## 📂 `tools/`
 
 Development tools and environment setup assets:
 
@@ -144,22 +139,20 @@ Development tools and environment setup assets:
 | `git_hooks/`       | Git automation scripts (e.g., pre-commit validation). |
 
 
-
-## 🎨 `ui_design/`
+## 📂 `ui_design/`
 
 Contains **interface design resources** created by UI/UX designers.
 
 | Subdirectory       | Purpose |
 |--------------------|---------|
-| `mockups/`         | High-fidelity static design screens. |
+| `mockups/`         | High-fidelity static UI designs. |
 | `prototypes/`      | Interactive flows and navigable prototypes. |
 | `wireframes/`      | Low-fidelity conceptual layouts. |
 
 > These files assist frontend development and UI testing.
 
 
-
-## 🖌 `visual_identity/`
+## 📂 `visual_identity/`
 
 Directory intended for use by the **branding and graphic design team**.
 
@@ -186,7 +179,6 @@ Directory intended for use by the **branding and graphic design team**.
 | └── `typography/`    | Font studies, examples, and text formatting references. |
 
 
-
 ## 📏 Naming Conventions
 
 To ensure clarity, consistency, and maintainability, the following naming conventions are enforced:
@@ -202,7 +194,6 @@ To ensure clarity, consistency, and maintainability, the following naming conven
 | Folder names           | `snake_case`           | `value_objects`, `http_routes` |
 
 
-
 ## 🧠 Onboarding Advice
 
 - **Always look for an existing module** before creating new ones.
@@ -214,6 +205,6 @@ To ensure clarity, consistency, and maintainability, the following naming conven
 
 ---
 
-Welcome aboard, and thank you for contributing to this project!
+Welcome aboard, and thank you for contributing to this project!  
 
 If anything is unclear, please refer to `CONTRIBUTING.md` or reach out to the project maintainers.
