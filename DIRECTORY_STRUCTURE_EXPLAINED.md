@@ -1,12 +1,5 @@
-Claro! Abaixo está a versão **atualizada do `STRUCTURE.md`**, com **todas as seções de diretórios organizadas em ordem alfabética**. Isso facilita a leitura, a manutenção e o onboarding de novos membros da equipe.
-
----
-
-# 📁 `STRUCTURE.md` — Project Folder Structure & Conventions
-
-Welcome to the **LMS (Learning Management System)** project!
-
 This document provides a **comprehensive explanation** of the folder and file structure adopted by this project.  
+
 It is intended to help **developers, designers, business analysts, stakeholders, and contributors** understand how the code and assets are organized, what each part is responsible for, and how to navigate and contribute efficiently.
 
 
