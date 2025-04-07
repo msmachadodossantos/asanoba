@@ -39,7 +39,6 @@ While this structure is comprehensive, it is not rigid. As the system evolves, t
 
 The table below provides a detailed explanation of each directory:
 
-
 # Directory Structure Breakdown
 
 This table describes the purpose of each directory in the project.
