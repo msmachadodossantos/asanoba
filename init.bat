@@ -23,7 +23,6 @@ for %%D in (
 ) do (
     if not exist %%D (
         mkdir %%D
-        REM Create .keep file so that empty directories are tracked by version control
         type nul > %%D\.keep
     )
 )
@@ -133,12 +132,13 @@ for %%D in (
 )
 
 REM ─────────────────────────────
-REM Create public-facing folders for assets (CSS, JS, images)
+REM Create public-facing folders for assets and uploads
 for %%D in (
     public\assets
     public\assets\css
     public\assets\images
     public\assets\js
+    public\uploads
 ) do (
     if not exist %%D (
         mkdir %%D
@@ -165,10 +165,15 @@ for %%D in (
 )
 
 REM ─────────────────────────────
-REM Create storage subfolder for logs
-if not exist storage\logs (
-    mkdir storage\logs
-    type nul > storage\logs\.keep
+REM Create storage subfolders (logs and private uploads)
+for %%D in (
+    storage\logs
+    storage\uploads
+) do (
+    if not exist %%D (
+        mkdir %%D
+        type nul > %%D\.keep
+    )
 )
 
 REM ─────────────────────────────
