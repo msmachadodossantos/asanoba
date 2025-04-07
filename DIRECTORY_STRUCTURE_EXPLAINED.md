@@ -40,6 +40,10 @@ While this structure is comprehensive, it is not rigid. As the system evolves, t
 The table below provides a detailed explanation of each directory:
 
 
+# Directory Structure Breakdown
+
+This table describes the purpose of each directory in the project.
+
 | Directory Path                                                | Description |
 |---------------------------------------------------------------|-------------|
 | cli/                                                          | Command-line tools and utilities. |
@@ -93,6 +97,7 @@ The table below provides a detailed explanation of each directory:
 | public/assets/css/                                            | Compiled CSS files. |
 | public/assets/images/                                         | Public image assets. |
 | public/assets/js/                                             | Public JavaScript files. |
+| public/uploads/                                               | For publicly accessible user-uploaded files (e.g. images, banners). |
 | scripts/                                                      | Scripts for automation, setup, and development. |
 | src/infrastructure/persistence/                               | Shared database logic. |
 | src/infrastructure/services/                                  | Shared technical services. |
@@ -100,6 +105,7 @@ The table below provides a detailed explanation of each directory:
 | src/interface/http/routes/                                    | Shared route definitions. |
 | src/interface/views/                                          | Shared view templates. |
 | storage/logs/                                                 | Log files generated during runtime. |
+| storage/uploads/                                              | For protected or sensitive user-uploaded content served via backend. |
 | tests/user/e2e/                                               | End-to-end tests simulating real usage. |
 | tests/user/integration/                                       | Tests that check integration between modules. |
 | tests/user/unit/                                              | Isolated unit tests. |
