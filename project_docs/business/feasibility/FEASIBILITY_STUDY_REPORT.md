@@ -43,7 +43,7 @@ In summary, a suitable LMS for public schools must combine technological robustn
 
 #### Technical feasibility of using open-source technologies for development
 
-The implementation of a Learning Management System (LMS) for educational purposes frequently involves prominent platforms such as Moodle and Canvas, both widely recognized for their advanced features and broad institutional adoption. However, despite their established capabilities, these systems may present challenges related to user interface and operational complexity, which can potentially hinder accessibility and effectiveness for various user profiles.
+The implementation of a Learning Management System (LMS) for educational purposes frequently involves prominent platforms such as Moodle, Sakai, and Canvas, all widely recognized for their advanced features and broad institutional adoption. However, despite their established capabilities, these systems may present challenges related to user interface and operational complexity, which can potentially hinder accessibility and effectiveness for various user profiles.
 
 Moodle, as an open-source LMS, benefits from the support of a vast global community and offers a comprehensive range of functionalities. Successive updates to the platform incorporate continuous improvements to the interface, demonstrating a consistent effort to enhance usability. Additionally, the Moodle community provides free support through specialized forums on Moodle.org, reinforcing the notion of a constantly evolving system with significant potential. It is also important to note that educational institutions may adopt open-source systems as a means of adapting to their specific contextual needs. This type of system allows for the extension of functionalities through the use of community-developed plugins, and the presence of technical expertise in Information Technology within most university environments significantly contributes to its technical viability. Although Moodle is generally regarded as a stable platform, its open nature implies that customization—while offering high flexibility—can prove complex and require specialized skills, which, if not managed carefully, may result in usability issues. Nevertheless, this very flexibility, inherent to open-source systems, offers viable alternatives for users across diverse settings, allowing institutions to tailor the platform to their specific requirements. The technical feasibility of development based on open technologies is further reinforced by the ability to extend existing functionalities and incorporate community plugins, which can be directed toward improving the user interface.
 
@@ -135,9 +135,44 @@ By releasing the project under an open source license, there is potential for gr
 Given the outlined scope, chosen technical stack, and time constraints, the project is feasible at a minimal scale, provided that expectations are aligned with available capacity. A narrowly scoped MVP can realistically be achieved as a personal side project. However, expansion beyond the MVP stage will require careful prioritization or eventual external collaboration.
 
 
+
 ### Background
 
 > Briefly describe the context of the proposed system. Highlight the potential benefits of an open-source LMS for public schools, such as accessibility, cost-effectiveness, customizability, and the opportunity to address specific educational needs. Mention your personal motivation to contribute to open software for public education.
+
+A Learning Management System (LMS) is a comprehensive software application designed to manage, deliver, monitor, and report on educational courses, training programs, or learning content. It serves as a centralized platform that allows educators to create and manage online courses, assign tasks, assess student performance, and communicate effectively with learners. For students, an LMS offers access to instructional materials, participation in discussion forums, peer collaboration, and personalized feedback from instructors.
+
+The adoption of LMS technologies has significantly reshaped the educational landscape, offering a holistic view of teaching and learning processes. These platforms benefit educators, students, administrators, and entire academic systems. Over time, LMS platforms have evolved from simple content delivery tools into robust educational ecosystems; supporting curriculum management, multimedia integration, performance tracking, and collaborative learning. Today, they are indispensable for the distribution and administration of educational content across various settings, including K–12 and higher education.
+
+
+
+
+#### The Value of Open-Source LMS in Public Schools
+
+In public education, open-source LMS platforms offer several key advantages:
+
+1. **Accessibility**  
+   Open-source platforms are typically free to use and distribute, eliminating licensing fees and reducing the financial burden on public institutions. This allows schools to reallocate resources to other critical educational needs. Moreover, their flexibility supports the integration of multimedia resources and assistive technologies, meeting the needs of diverse learners, including students with disabilities.
+
+2. **Cost-Effectiveness**  
+   While open-source platforms may incur costs related to installation, hosting, updates, and maintenance, these are generally lower than the recurring fees of commercial alternatives. For budget-constrained public schools, this cost-efficiency is a vital factor in adopting and sustaining educational technologies.
+
+3. **Customizability**  
+   One of the standout features of open-source LMS platforms is the ability to customize source code to meet specific institutional needs. Schools can tailor the system to align with curriculum standards, pedagogical approaches, and the unique requirements of their students and faculty. This includes modifying the user interface, integrating specialized tools, and developing features that foster dynamic, personalized learning experiences.
+
+4. **Support for Diverse Educational Needs**  
+   Customization also allows public schools to create adaptive learning paths that accommodate different learning styles, speeds, and support needs. Open-source platforms can promote inclusivity by incorporating collaborative learning features and accessibility enhancements for students with physical, sensory, or cognitive disabilities. Furthermore, they offer the flexibility needed to meet federal and state compliance requirements, which is essential in public education.
+
+
+
+
+#### A Personal Commitment to Educational Equity
+
+LMS platforms are not only strategic tools for modern education; they are essential for fostering equitable, inclusive, and innovative learning environments. In public schools, open-source systems provide a powerful alternative that supports both access and customization.
+
+As a web developer whose educational journey largely unfolded within the public school system, I have a first-hand understanding of the barriers many Brazilian students face in accessing quality education. My path has been shaped by the support of family, friends, and collaborative communities, including the Catholic University where I had the privilege to further develop my skills. These experiences have deeply influenced my perspective on the transformative power of technology in supporting those who champion educational equity.
+
+My involvement in this project stems not only from technical or professional interests but also from a personal commitment to the democratization of knowledge. I believe that developing accessible and open digital tools can be a powerful driver of inclusion, offering pedagogical support, interactive resources, and learning opportunities for students who often lack adequate infrastructure or specialized assistance. Each phase of this project reflects an ongoing process of refinement, with a constant drive to improve how technology can foster educational equity.
 
 
 ## System Goals and Objectives
