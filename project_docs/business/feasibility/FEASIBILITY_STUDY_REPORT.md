@@ -296,6 +296,7 @@ My involvement in this project stems not only from technical or professional int
 
 > The recommendations should be practical and aligned with the primary motive:
 > - Start with a focused set of core LMS features that address fundamental needs in public education.
+>   - "Nobody should start to undertake a large project. You start with a small trivial project, and you should never expect it to get large. If you do, you'll just overdesign and generally think it is more important than it likely is at that stage. Or worse, you might be scared away by the sheer size of the work you envision. So start small, and think about the details. Don't think about some big picture and fancy design. If it doesn't solve some fairly immediate need, it's almost certainly over-designed. And don't expect people to jump in and help you. That's not how these things work. You need to get something half-way useful first, and then others will say "hey, that almost works for me", and they'll get involved in the project." - [Linus Torvalds](https://web.archive.org/web/20050404020308/http://www.linuxtimes.net/modules.php?name=News&file=article&sid=145)
 > - Prioritize a modular and extensible architecture from the outset to facilitate future integration and community contributions.
 > - Emphasize open standards and interoperability where possible in the initial design.
 > - Consider a phased rollout strategy, perhaps starting with a pilot program in a limited number of schools or focusing on a specific region.
