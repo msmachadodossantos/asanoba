@@ -418,7 +418,7 @@ Deploying a custom LMS requires proficiency in server setup, domain configuratio
 
 Given the scale and ambition of the LMS, development will be time-intensive. As a personal project, the developer must balance this workload with academic or professional obligations. Without sufficient time or support, the risk of delays, incomplete features, or even project abandonment increases. Establishing a clear roadmap with milestones, focusing on a Minimum Viable Product (MVP), and adopting an incremental development approach will help mitigate this risk.
 
-### Conclusion
+#### Conclusion
 
 The development of a comprehensive LMS using vanilla technologies is technically feasible but demands a high level of planning, discipline, and resourcefulness. Key challenges include managing architectural complexity, ensuring performance, securing user data, and supporting future scalability and collaboration. These risks are not insurmountable but must be proactively addressed. The successful implementation of this system will require strong coding practices, systematic documentation, continuous testing, and strategic use of open-source tools and libraries where applicable. With a clear development plan and appropriate risk mitigation strategies, the LMS can evolve into a robust and sustainable platform aligned with its initial goals.
 
