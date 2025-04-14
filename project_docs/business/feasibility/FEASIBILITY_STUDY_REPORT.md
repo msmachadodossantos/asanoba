@@ -120,7 +120,7 @@ By releasing the project under an open source license, there is potential for gr
 ##### Risk Assessment
 
 | Risk Factor                        | Mitigation Strategy                                                  |
-|-----------------------------------|-----------------------------------------------------------------------|
+|------------------------------------|----------------------------------------------------------------------|
 | Time constraints                   | Scope reduction; MVP-first approach                                  |
 | Solo development effort            | Clear documentation; modular architecture                            |
 | Lack of external libraries         | Increased initial development time accepted as trade-off             |
@@ -431,11 +431,121 @@ The development of a comprehensive LMS using vanilla technologies is technically
 
 > Provide a preliminary assessment of the costs associated with developing, implementing, and maintaining the system, weighed against the potential benefits. For a personal open-source project, the primary 'cost' will likely be your time and effort, as well as potentially the cost of hosting and infrastructure. The benefits are the potential positive impact on public education. Traditional monetary cost-benefit analysis might be less relevant than assessing the value and sustainability of your contribution. This directly addresses the budgetary aspect of a key feasibility question.
 
+This section presents a preliminary cost-benefit analysis for the development and deployment of the proposed Learning Management System (LMS), with specific attention to the economic implications relevant to an open-source, individually led initiative. Unlike commercial enterprise solutions, the primary costs associated with this project are non-monetary in nature; chiefly the personal time, effort, and long-term maintenance commitments of the developer. The potential benefits, however, extend significantly into the educational and social domains, with implications for institutional advancement and public good.
+
+
+
+
+#### Estimated Costs
+
+
+
+
+
+##### Development Time and Labor  
+
+The predominant cost factor is the time investment required by the developer to design, build, test, document, and maintain the system. Development activities include but are not limited to: systems architecture design, front-end and back-end programming, accessibility compliance, integration of core features (e.g., content delivery, assessment, communication), as well as testing and refinement. This time commitment represents a substantial opportunity cost, particularly in the absence of direct financial compensation.
+
+
+
+
+
+##### Infrastructure and Hosting  
+
+The project leverages GitHub's free-tier services for source code hosting, version control, and documentation. This significantly reduces monetary expenditures. However, should the system evolve to include production-level deployments or hosted demonstrations, ancillary costs may arise from:
+
+- Domain registration (if applicable)
+- Cloud-based infrastructure or serverless backends (e.g., databases, APIs, file storage)
+- Optional services such as analytics, continuous integration, or automated testing environments
+
+
+
+
+
+##### Ongoing Maintenance and Support  
+
+Post-deployment, the system will require regular maintenance, including updates, bug fixes, security patches, and potential enhancements based on user feedback. Additionally, user documentation, issue tracking, and community engagement will demand continuous oversight to ensure usability and sustainability.
+
+
+
+
+#### Expected Benefits
+
+
+
+
+
+##### Educational Impact  
+
+The LMS is designed to support a school’s strategic direction by enhancing pedagogical flexibility, learner engagement, administrative efficiency, and overall educational quality. By providing a centralized, adaptable platform, the system can improve content delivery, support inclusive learning, and contribute to improved academic outcomes.
+
+
+
+
+
+##### Public Value and Accessibility  
+
+As an open-source solution, the LMS provides broad access to high-quality educational infrastructure without licensing fees, particularly benefiting public schools and under-resourced institutions. Its design emphasizes accessibility, equity, and scalability, enabling its adaptation across diverse learning contexts.
+
+
+
+
+
+##### Personal and Professional Development  
+
+The development process offers substantial value to the creator in the form of enhanced technical expertise, domain knowledge in educational technologies, and a demonstrable portfolio of work. Additionally, successful deployment and community engagement may lead to increased visibility and future collaboration opportunities.
+
+
+
+
+
+##### Long-Term Reusability and Community Contribution  
+
+By adopting an open-source model, the LMS has the potential to become a collaborative project, inviting contributions from other developers, educators, and institutions. This can reduce the long-term development burden, increase innovation through community-driven enhancements, and promote sustainability through shared ownership.
+
+
+
+
+#### Conclusion
+
+While the project does not incur significant direct financial costs, the economic feasibility hinges on the availability of development time and the project's sustainability through ongoing personal and community involvement. Given the potential to deliver high-impact educational outcomes, promote public access to digital learning infrastructure, and support institutional digital transformation, the benefits of the proposed LMS substantially outweigh the associated costs.
+
+This cost-benefit analysis supports the conclusion that the LMS project is economically feasible, particularly within the context of an open-source, mission-driven initiative.
+
 
 
 ### Budgetary Constraints
 
 > Clearly state the budgetary limitations of this being a personal side project. This will influence the scope and timeline of the development.
+
+The proposed Learning Management System (LMS) is being developed as a personal, open-source side project, undertaken without institutional funding or external financial backing. As such, the project is subject to significant budgetary limitations, the most critical of which is the absence of dedicated financial resources to support full-time development, paid contributors, or commercial-grade infrastructure.
+
+This constraint directly impacts two key areas:
+
+
+
+
+#### Project Scope
+
+The functional scope of the LMS must be carefully aligned with available development capacity. As a solo initiative, all design, development, testing, documentation, and maintenance tasks fall under the responsibility of a single contributor. Therefore, the project will be developed incrementally, prioritizing core features that offer the greatest educational value and usability. Advanced or non-essential features—such as AI-powered recommendations, full-scale enterprise integrations, or custom analytics dashboards—may be deferred or implemented only if community contributions or institutional interest emerge over time.
+
+To maintain focus and ensure deliverability, the initial release will likely take the form of a Minimum Viable Product (MVP), encompassing the foundational modules such as content management, user onboarding, assessment tools, and basic communication features. Subsequent enhancements will depend on available time, user feedback, and potential collaboration.
+
+
+
+
+#### Development Timeline
+
+The timeline for delivery is inherently non-linear and dependent on the developer’s availability outside of primary professional and personal obligations. Without dedicated working hours or formal deadlines, the project may experience variability in development velocity. Key milestones—such as alpha releases, documentation drafts, or user testing—will be driven by best-effort estimates rather than fixed schedules.
+
+As a mitigation strategy, progress will be tracked transparently through public issue tracking and release planning on GitHub. This will help maintain accountability, communicate timelines to potential users and collaborators, and facilitate gradual adoption and community input.
+
+
+
+
+#### Conclusion
+
+In summary, while the project does not require traditional budget allocations, its status as a personal side project introduces inherent constraints on scope and schedule. These limitations are acknowledged and will be proactively managed through incremental development, prioritization of high-impact features, and transparency in communication. Despite the restricted budget, the project remains viable due to its alignment with open-source principles, educational impact goals, and scalability over time.
 
 
 ## Schedule Feasibility
