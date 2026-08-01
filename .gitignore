@@ -1,0 +1,14 @@
+# Environment variables (.env.production, .env.local, etc.)
+.env*
+
+# Java / Maven / Gradle
+
+# Node.js
+node_modules
+
+# PHP / Composer
+vendor
+
+# System files
+.DS_Store
+Thumbs.db
