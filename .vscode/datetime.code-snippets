@@ -1,0 +1,19 @@
+// Code Snippet Refactoring
+// The optimization of code snippet components requires a systematic approach focused on functional clarity and structural integrity. The primary title must be condensed into a nominal phrase that accurately reflects the body content, strictly adhering to a five-word limit. Regarding the description, it must provide a comprehensive analysis of the functionality's underlying motivations, specifying the appropriate contexts and methodologies for its implementation.
+// Prefix taxonomy shall follow a standardized format, beginning with the term insert followed by a keyword representing the snippet’s core function. Should there be a terminological discrepancy between the descriptive term and the associated HTML element, both must be included in the naming convention (e.g., insert descriptiveWord - htmlElementName). Finally, the entirety of the script must be authored in EN-US to maintain international technical consistency.
+{
+    "Current Date: YYYY-MM-DD": {
+        "prefix": "insert current date: YYYY-MM-DD",
+        "body": [
+            "$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE"
+        ],
+        "description": "This snippet generates the current date in the standardized format of YYYY-MM-DD. It is particularly useful for applications requiring timestamping, logging, or any functionality that necessitates the inclusion of the current date. The snippet leverages built-in variables to dynamically insert the year, month, and day, ensuring accuracy and relevance at the time of execution. This implementation is ideal for developers seeking to streamline date-related operations within their codebase."
+    },
+    "Current Timestamp: YYYY-MM-DD HH:MM:SS": {
+        "prefix": "insert current timestamp: YYYY-MM-DD HH:MM:SS",
+        "body": [
+            "$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND"
+        ],
+        "description": "This snippet generates the current timestamp in the standardized format of YYYY-MM-DD HH:MM:SS. It is particularly useful for logging, auditing, or any application requiring precise moment recording. The snippet leverages built-in variables to dynamically insert the year, month, day, hour, minute, and second at the time of execution. This implementation is designed to work universally across all file types within the editor environment."
+    }
+}
