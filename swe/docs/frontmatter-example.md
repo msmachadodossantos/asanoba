@@ -50,5 +50,5 @@ tableOfContents:
 editLink: true # Enables or disables the "Edit this page" link
 
 # Additional metadata for translation and internationalization (if applicable)
-i18nReady: true
+# i18nReady: true
 ---
