@@ -48,4 +48,7 @@ tableOfContents:
   minHeadingLevel: 2
   maxHeadingLevel: 4
 editLink: true # Enables or disables the "Edit this page" link
+
+# Additional metadata for translation and internationalization (if applicable)
+i18nReady: true
 ---
