@@ -17,13 +17,26 @@ export default defineConfig({
       title: 'ASANOBA Docs',
       sidebar: [
         {
-          label: 'Documentação',
+          label: 'DB',
           items: [
             { autogenerate: { directory: 'db' } },
-            { autogenerate: { directory: 'dev' } },
-            { autogenerate: { directory: 'guides' } },
-            { autogenerate: { directory: 'reference' } },
+          ],
+        },
+        {
+          label: 'DEV',
+          items: [
+            { autogenerate: { directory: 'dev' } }
+          ],
+        },
+        {
+          label: 'SWE',
+          items: [
             { autogenerate: { directory: 'swe' } },
+          ],
+        },
+        {
+          label: 'UXD',
+          items: [
             { autogenerate: { directory: 'uxd' } },
           ],
         },
